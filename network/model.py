@@ -3,7 +3,7 @@ from argparse import ArgumentParser
 from torch import nn
 import pytorch_lightning as pl
 
-from network.network_utils import conv_layer, transpose_conv_layer
+from util.network_utils import conv_layer, transpose_conv_layer
 
 class ResnetBlock(nn.Module):
     def __init__(
