@@ -1,4 +1,4 @@
-import torch.nn as nn
+import torch import nn
 
 def conv_layer(
     channel_in,
